@@ -1,6 +1,7 @@
 package com.parking.rentparking.infraestructure.repository;
 
 import com.parking.rentparking.domain.models.Task;
+import com.parking.rentparking.infraestructure.mappper.TaskDboMapper;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,9 +23,10 @@ class JpaTaskRepositoryAdapterTest {
     @Autowired
     JpaTaskRepository jpaTaskRepository;
     JpaTaskRepositoryAdapter jpaTaskRepositoryAdapter;
+    TaskDboMapper taskDboMapper = new TaskDboMapper();
     @BeforeEach
     void setUp() {
-        jpaTaskRepositoryAdapter = new JpaTaskRepositoryAdapter(jpaTaskRepository);
+        jpaTaskRepositoryAdapter = new JpaTaskRepositoryAdapter(jpaTaskRepository, taskDboMapper);
     }
     @Test
     void testFindAll() {

@@ -6,6 +6,7 @@ import com.parking.rentparking.application.usecases.DeleteTaskUseCaseImpl;
 import com.parking.rentparking.application.usecases.RetriverTaskUseCaseImpl;
 import com.parking.rentparking.application.usecases.UpdateTaskUseCaseImpl;
 import com.parking.rentparking.domain.ports.out.TaskRepositoryPort;
+import com.parking.rentparking.infraestructure.mappper.TaskDboMapper;
 import com.parking.rentparking.infraestructure.repository.JpaTaskRepositoryAdapter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

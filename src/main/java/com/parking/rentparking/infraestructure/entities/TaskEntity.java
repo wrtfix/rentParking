@@ -22,13 +22,6 @@ public class TaskEntity {
         this.timeRequiredToComplete = timeRequiredToComplete;
     }
 
-    public static TaskEntity fromDomainModel(Task task) {
-        return new TaskEntity(task.getId(), task.getDescription(), task.getTimeRequiredToComplete());
-    }
-    public Task saveModel(){
-        return new Task(id, description, timeRequiredToComplete);
-    }
-
     public Long getId() {
         return id;
     }
