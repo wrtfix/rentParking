@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7ea8eacb-4c21-49e9-bb83-bdf698760b3a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/parking/rentparking/infraestructure/config/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parking/rentparking/infraestructure/config/ApplicationConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/parking/rentparking/infraestructure/entities/TaskEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parking/rentparking/infraestructure/entities/TaskEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/parking/rentparking/infraestructure/repository/JpaTaskRepositoryAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parking/rentparking/infraestructure/repository/JpaTaskRepositoryAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/parking/rentparking/infraestructure/repository/JpaTaskRepositoryAdapterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parking/rentparking/infraestructure/repository/JpaTaskRepositoryAdapterTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2k3h4bZ4RRdgTWIHW8OboFv5D5u" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "feature/todo-list",
+    "last_opened_file_path": "/Users/jorgemendiola/Documents/challenge/RentParking",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.23490427",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.RentParkingApplication">
+    <configuration name="RentParkingApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.parking.rentparking.RentParkingApplication" />
+      <module name="RentParking" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.parking.rentparking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JpaTaskRepositoryAdapterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RentParking" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.parking.rentparking.infraestructure.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.parking.rentparking.infraestructure.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.parking.rentparking.infraestructure.repository.JpaTaskRepositoryAdapterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JpaTaskRepositoryAdapterTest.testCreateTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RentParking" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.parking.rentparking.infraestructure.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.parking.rentparking.infraestructure.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.parking.rentparking.infraestructure.repository.JpaTaskRepositoryAdapterTest" />
+      <option name="METHOD_NAME" value="testCreateTask" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TaskControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RentParking" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.parking.rentparking.infraestructure.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.parking.rentparking.infraestructure.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.parking.rentparking.infraestructure.controller.TaskControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TaskServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RentParking" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.parking.rentparking.application.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.parking.rentparking.application.services" />
+      <option name="MAIN_CLASS_NAME" value="com.parking.rentparking.application.services.TaskServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.RentParkingApplication" />
+        <item itemvalue="JUnit.JpaTaskRepositoryAdapterTest" />
+        <item itemvalue="JUnit.TaskServiceTest" />
+        <item itemvalue="JUnit.TaskControllerTest" />
+        <item itemvalue="JUnit.JpaTaskRepositoryAdapterTest.testCreateTask" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7ea8eacb-4c21-49e9-bb83-bdf698760b3a" name="Changes" comment="" />
+      <created>1722517982325</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1722517982325</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/parking/rentparking/infraestructure/repository/JpaTaskRepositoryAdapter.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
